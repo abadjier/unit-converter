@@ -47,7 +47,6 @@ function imperialToMetric(unit, val) {
 
 convertBtn.addEventListener("click", function() {
     inputVal = Number(numberInput.value)
-    //console.log(meterToFeet(inputVal).toFixed(3))
     
     
     lengthOutput.textContent = `
